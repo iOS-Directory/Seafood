@@ -60,14 +60,30 @@
 			children = (
 				041A16772429BEBF007578CF /* AppDelegate.swift */,
 				041A16792429BEBF007578CF /* SceneDelegate.swift */,
-				041A167B2429BEBF007578CF /* ViewController.swift */,
-				041A167D2429BEBF007578CF /* Main.storyboard */,
+				041A168D2429CF18007578CF /* View Controller */,
+				041A168E2429CF2D007578CF /* Views */,
 				041A16802429BEC7007578CF /* Assets.xcassets */,
 				041A16822429BEC7007578CF /* LaunchScreen.storyboard */,
 				041A16852429BEC7007578CF /* Info.plist */,
 				041A168B2429BF9E007578CF /* Inceptionv3.mlmodel */,
 			);
 			path = Seafood;
+			sourceTree = "<group>";
+		};
+		041A168D2429CF18007578CF /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				041A167B2429BEBF007578CF /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		041A168E2429CF2D007578CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				041A167D2429BEBF007578CF /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
