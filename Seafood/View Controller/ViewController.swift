@@ -72,7 +72,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             
             //Get the first result
             if let firstResult = results.first {
-                self.navigationItem.title = firstResult.identifier
+                self.navigationItem.title = firstResult.identifier.localizedCapitalized
             }
         }
         

@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		041A16742429BEBF007578CF /* Seafood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seafood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041A16742429BEBF007578CF /* RecognizedMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecognizedMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041A16772429BEBF007578CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		041A16792429BEBF007578CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		041A167B2429BEBF007578CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		041A16752429BEBF007578CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				041A16742429BEBF007578CF /* Seafood.app */,
+				041A16742429BEBF007578CF /* RecognizedMe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,7 +103,7 @@
 			);
 			name = Seafood;
 			productName = Seafood;
-			productReference = 041A16742429BEBF007578CF /* Seafood.app */;
+			productReference = 041A16742429BEBF007578CF /* RecognizedMe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -311,8 +311,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.productions.fritzgt.Seafood;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.productions.fritzgt.RecognizedMe;
+				PRODUCT_NAME = RecognizedMe;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,8 +329,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.productions.fritzgt.Seafood;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.productions.fritzgt.RecognizedMe;
+				PRODUCT_NAME = RecognizedMe;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
